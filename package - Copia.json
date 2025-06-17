@@ -1,19 +1,13 @@
 {
   "name": "node.js-sip",
   "version": "1.0.9",
-  "description": "Node.js VOIP Library with Express API",
+  "description": "Node.js VOIP Library",
   "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "example": "examples"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "body-parser": "^1.20.2",
-    "sip": "file:./SIP",
-    "utils": "file:./utils",
-    "sdp": "file:./SDP",
-    "rtp": "file:./RTP"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
